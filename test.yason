@@ -1,0 +1,51 @@
+{
+	// comments
+	/* yeye */
+
+	// we are fully json compatible!
+	"foo": "bar",
+
+	// quotes can change
+	'yey': 'single',
+
+	// no need to quote keys tho
+	key: 'val',
+
+	list: [
+		1, 2, 3, // trailing commas are good
+	],
+
+	// speaking of commas, who needs commas?
+	foo: 1
+	baz: 2
+
+	// as long as values are separated by whitespace, they are valid
+
+	// you can even do some weird stuff like this, but I wouldn't advise it
+	this: 1 that: 2 those: 3
+
+	// for... reasons, strings are multiline
+	long: '
+	hey there, this is a long string
+
+	notice how we need to \'escape\' single quotes
+
+	the only problem with this is that it doesn\'t trim those newlines and
+	leading whitespace, which brings me to...
+	'
+
+	// backticks!
+	multiline: `
+		hey there, this is a long string
+		the benefit of this is that it will trim those newlines and leading
+		spaces
+		but it still preserves other indentation
+
+			- like this list
+		
+		or this:
+
+			- another list
+			  some stuff here for testing
+	`
+}
