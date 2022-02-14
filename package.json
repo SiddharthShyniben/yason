@@ -6,6 +6,14 @@
   "scripts": {},
   "bin": "index.js",
   "type": "module",
+  "files": [
+    "index.js",
+    "parser.js",
+    "scanner.js",
+    "transpiler.js",
+    "utils.js",
+    "types/expression.js"
+  ],
   "keywords": ["json", "yason"],
   "author": "Siddharth Shyniben <siddharth.muscat@gmail.com>",
   "license": "MIT",
