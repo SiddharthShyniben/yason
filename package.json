@@ -1,0 +1,15 @@
+{
+  "name": "@siddharthshyniben/yason",
+  "version": "1.0.0",
+  "description": "Yet another simple object notation",
+  "main": "index.js",
+  "scripts": {},
+  "bin": "index.js",
+  "type": "module",
+  "keywords": ["json", "yason"],
+  "author": "Siddharth Shyniben <siddharth.muscat@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nanoparse": "^1.0.0"
+  }
+}
